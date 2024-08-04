@@ -1,0 +1,3 @@
+<library path="/home/baby0/KU_ws/devel/.private/custom_costmap_layer/lib/libcustom_costmap_layer">
+  <class type="custom_costmap_layer::CustomLayer" base_class_type="costmap_2d::Layer" />
+</library>

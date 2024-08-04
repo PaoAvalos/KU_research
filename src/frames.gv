@@ -1,0 +1,19 @@
+digraph G {
+"base_footprint" -> "lidar_link"[label="Broadcaster: /stp_laser\nAverage rate: 933.664 Hz\nMost recent transform: 1719384187.739 ( -0.001 sec old)\nBuffer length: 4.995 sec\n"];
+"odom" -> "base_footprint"[label="Broadcaster: /pub_odom\nAverage rate: 20.204 Hz\nMost recent transform: 1719384187.690 ( 0.049 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "camera_depth_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1719384187.739 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1719384187.739 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_color_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1719384187.739 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_aligned_depth_to_color_frame" -> "camera_color_optical_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1719384187.739 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_aligned_depth_to_color_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1719384187.739 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "realsense_mount"[label="Broadcaster: /robotont_realsense_broadcaster\nAverage rate: 10.195 Hz\nMost recent transform: 1719384187.759 ( -0.020 sec old)\nBuffer length: 4.904 sec\n"];
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 10.161 Hz\nMost recent transform: 1719384187.858 ( -0.119 sec old)\nBuffer length: 4.822 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1719384187.739"[ shape=plaintext ] ;
+ }->"camera_link";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1719384187.739"[ shape=plaintext ] ;
+ }->"map";
+}

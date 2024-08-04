@@ -1,0 +1,7 @@
+rosserial/rosserial_chibios
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/cmake.lock /home/baby0/KU_ws/devel/./cmake.lock
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc /home/baby0/KU_ws/devel/lib/pkgconfig/rosserial_chibios.pc
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake.lock /home/baby0/KU_ws/devel/share/rosserial_chibios/cmake.lock
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/make_libraries.py /home/baby0/KU_ws/devel/share/rosserial_chibios/make_libraries.py
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake /home/baby0/KU_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+/home/baby0/KU_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake /home/baby0/KU_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake

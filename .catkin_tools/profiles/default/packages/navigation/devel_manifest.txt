@@ -1,0 +1,2 @@
+navigation/navigation
+/home/baby0/KU_ws/devel/.private/navigation/cmake.lock /home/baby0/KU_ws/devel/./cmake.lock

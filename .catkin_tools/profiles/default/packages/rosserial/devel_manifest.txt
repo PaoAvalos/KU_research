@@ -1,0 +1,2 @@
+rosserial/rosserial
+/home/baby0/KU_ws/devel/.private/rosserial/cmake.lock /home/baby0/KU_ws/devel/./cmake.lock

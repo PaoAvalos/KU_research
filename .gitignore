@@ -1,0 +1,12 @@
+# Ignore build and devel directories
+build/
+devel/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.tmp
+
+# Ignore system files
+.DS_Store
+
